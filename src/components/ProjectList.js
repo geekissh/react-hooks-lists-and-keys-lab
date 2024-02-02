@@ -8,9 +8,9 @@ function ProjectList({ projects }) {
       <div id="project-list">
         {projects.map((project) => (
           <ProjectItem
-            key={project.id} // Replace with the actual property used as an ID
-            name={project.name} // Replace with the actual property name in your project data
-            about={project.about} // Replace with the actual property name in your project data
+            key={project.id}   
+            name={project.name} 
+            about={project.about}
             technologies={project.technologies}
           />
         ))}
